@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Shadow Icon Factory
+GenericName=Icon Set Generator
+Comment=Generate Linux, iOS, macOS, Web, and Android icons from a master
+Exec=shadow-icon-factory %F
+Icon=shadow-icon-factory
+Terminal=false
+Categories=Development;Graphics;
+Keywords=icon;appicon;favicon;android;ios;macos;linux;
+StartupNotify=true
+StartupWMClass=com.shadowfetch.IconFactory
+MimeType=image/png;image/jpeg;image/webp;image/svg+xml;

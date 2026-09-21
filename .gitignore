@@ -1,0 +1,11 @@
+/target/
+.env
+.idea/
+.vscode/
+*.swp
+*~
+/dist/
+*.deb
+gh-token
+*.pem
+*.key
