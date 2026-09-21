@@ -21,15 +21,11 @@ pub struct GenerateOptions {
 }
 
 #[derive(Debug, Clone)]
+#[allow(dead_code)]
 pub struct GeneratedFile {
     pub path: PathBuf,
     pub size: u32,
     pub upscale_blocked: bool,
-}
-
-#[allow(dead_code)]
-pub fn generated_file_path(file: &GeneratedFile) -> &Path {
-    &file.path
 }
 
 #[derive(Debug, Clone)]
