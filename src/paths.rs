@@ -6,7 +6,7 @@ pub const APP_ID: &str = "com.shadowfetch.IconFactory";
 pub const APP_NAME: &str = "Shadow Icon Factory";
 pub const APP_ICON: &str = "shadow-icon-factory";
 pub const APP_VERSION: &str = env!("CARGO_PKG_VERSION");
-pub const APP_WEBSITE: &str = "https://github.com/ShadowfetchLinux/Shadow-Icon-Factory";
+pub const APP_WEBSITE: &str = "https://github.com/Shadowfetchapps/Shadow-Icon-Factory";
 
 pub fn config_dir() -> Result<PathBuf> {
     Ok(dirs::config_dir()
