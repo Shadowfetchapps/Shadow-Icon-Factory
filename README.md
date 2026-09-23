@@ -29,7 +29,7 @@ Screenshots belong in `docs/screenshots/` and must not include private filenames
 ## Install (user, no root)
 
 ```bash
-git clone https://github.com/ShadowfetchLinux/Shadow-Icon-Factory.git
+git clone https://github.com/Shadowfetchapps/Shadow-Icon-Factory.git
 cd Shadow-Icon-Factory
 cargo build --release
 ./scripts/install-user.sh
